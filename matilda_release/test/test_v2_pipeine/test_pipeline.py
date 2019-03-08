@@ -70,7 +70,6 @@ class MatildaReleaseTest(unittest.TestCase):
 
     def test_post_release_plan(self):
         release_plan_response = release_plan_handler.create_release_plan(self.release_plan)
-        print(release_plan_response)
 
         self.assertEqual(release_plan_response[0]['release_plan_id'], self.release_plan['release_plan_id'])
         self.assertEqual(release_plan_response[0]['release_type_cd'], self.release_plan['release_type_cd'])

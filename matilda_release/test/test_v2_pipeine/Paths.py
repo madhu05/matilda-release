@@ -17,11 +17,11 @@ file_names = ['1_release_management_platform.sql',
 
 def path():
     command = 'find'
-    directory = '/var/lib/jenkins/workspace/'
-    flag = 'iname'
+    directory = '/var/lib/jenkins/workspace'
+    flag = '-iname'
     file_paths = []
-    for file in file_names:
-        args = [command, directory, flag, file]
+    for files in file_names:
+        args = [command, directory, flag, files]
         process = subprocess.run(args, stdout=subprocess.PIPE)
         path = process.stdout.decode().strip('\n')
         file_paths.append(path)

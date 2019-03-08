@@ -72,12 +72,12 @@ class MatildaReleaseTest(unittest.TestCase):
         release_plan_response = release_plan_handler.create_release_plan(self.release_plan)
         print(release_plan_response)
 
-        self.assertEqual(release_plan_response['release_plan_id'], self.release_plan['release_plan_id'])
-        self.assertEqual(release_plan_response['release_type_cd'], self.release_plan['release_type_cd'])
-        self.assertEqual(release_plan_response['color_pref'], self.release_plan['color_pref'])
-        self.assertEqual(release_plan_response['release_plan_name'], self.release_plan['release_plan_name'])
-        self.assertEqual(release_plan_response['release_plan_description'], self.release_plan['release_plan_description'])
-        self.assertEqual(release_plan_response['release_owner'], self.release_plan['release_owner'])
+        self.assertEqual(release_plan_response[0]['release_plan_id'], self.release_plan['release_plan_id'])
+        self.assertEqual(release_plan_response[0]['release_type_cd'], self.release_plan['release_type_cd'])
+        self.assertEqual(release_plan_response[0]['color_pref'], self.release_plan['color_pref'])
+        self.assertEqual(release_plan_response[0]['release_plan_name'], self.release_plan['release_plan_name'])
+        self.assertEqual(release_plan_response[0]['release_plan_description'], self.release_plan['release_plan_description'])
+        self.assertEqual(release_plan_response[0]['release_owner'], self.release_plan['release_owner'])
 
         def test_post_release(self):
             release_response = release_handler.create_release(self.release)

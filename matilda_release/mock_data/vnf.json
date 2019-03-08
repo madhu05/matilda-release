@@ -1,0 +1,94 @@
+[
+    {
+      "env_type": "Development",
+      "ip": "192.168.10.188",
+      "vnf_node": "PCRF",
+      "vnf_site": "Dallas Metro",
+      "status": "Installed"
+    },
+    {
+      "env_type": "Development",
+      "ip": "192.168.10.189",
+      "vnf_node": "PCRF",
+      "vnf_site": "Saint Louis",
+      "status": "Installed"
+    },
+    {
+      "env_type": "Development",
+      "ip": "192.168.10.190",
+      "vnf_node": "PCRF",
+      "vnf_site": "Richardson Lab",
+      "status": "Installed"
+    },
+    {
+      "env_type": "Testing",
+      "ip": "192.168.10.200",
+      "vnf_node": "RNC",
+      "vnf_site": "Richardson Lab",
+      "status": "Installed"
+    },
+    {
+      "env_type": "Testing",
+      "ip": "192.168.10.201",
+      "vnf_node": "PCRF",
+      "vnf_site": "Richardson Lab",
+      "status": "Installed"
+    },
+    {
+      "env_type": "Testing",
+      "ip": "192.168.10.202",
+      "vnf_node": "PCRF",
+      "vnf_site": "Dallas Metro",
+      "status": "Installed"
+    },
+    {
+      "env_type": "Production",
+      "ip": "192.168.10.300",
+      "vnf_node": "PCRF",
+      "vnf_site": "Dallas Metro",
+      "status": "Installed"
+    },
+    {
+      "env_type": "Production",
+      "ip": "192.168.10.301",
+      "vnf_node": "SGW",
+      "vnf_site": "Dallas Metro",
+      "status": "Installed"
+    },
+    {
+      "env_type": "Production",
+      "ip": "192.168.10.302",
+      "vnf_node": "PCRF",
+      "vnf_site": "Saint Louis",
+      "status": "Installed"
+    },
+    {
+      "env_type": "Development",
+      "ip": "192.168.10.100",
+      "vnf_node": "HSS",
+      "vnf_site": "Saint Louis",
+      "status": "Installed"
+    },
+    {
+      "env_type": "Testing",
+      "ip": "192.168.10.400",
+      "vnf_node": "PCRF",
+      "vnf_site": "Saint Louis",
+      "status": "Installed"
+    },
+    {
+      "env_type": "Production",
+      "ip": "192.168.10.500",
+      "vnf_node": "Mobile",
+      "vnf_site": "Dallas Metro",
+      "status": "Installed"
+    },
+    {
+      "env_type": "Production",
+      "ip": "192.168.10.550",
+      "vnf_node": "PCRF",
+      "vnf_site": "Richardson Lab",
+      "status": "Installed"
+    }
+
+]

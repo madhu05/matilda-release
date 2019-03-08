@@ -1,0 +1,173 @@
+{
+    "additional_releaseplans": [
+        {
+            "columns": [
+                {
+                    "header": "Status",
+                    "primaryKey": "status"
+                },
+                {
+                    "header": "Progress",
+                    "primaryKey": "progress"
+                },
+                {
+                    "header": "Total",
+                    "primaryKey": "total"
+                },
+                {
+                    "header": "Id",
+                    "primaryKey": "id"
+                },
+                {
+                    "header": "Summary",
+                    "primaryKey": "summary"
+                }
+            ],
+            "rows": [
+                {
+                    "checked": "True",
+                    "id": "MM-2",
+                    "progress": 0,
+                    "status": "To Do",
+                    "summary": "Discover JBoss Server ",
+                    "total": 0
+                },
+                {
+                    "checked": "True",
+                    "id": "MM-1",
+                    "progress": 0,
+                    "status": "To Do",
+                    "summary": "Discover WebLogic Server ",
+                    "total": 0
+                }
+            ],
+            "title": "Features"
+        },
+        {
+            "columns": [
+                {
+                    "header": "Status",
+                    "primaryKey": "status"
+                },
+                {
+                    "header": "Progress",
+                    "primaryKey": "progress"
+                },
+                {
+                    "header": "Total",
+                    "primaryKey": "total"
+                },
+                {
+                    "header": "Id",
+                    "primaryKey": "id"
+                },
+                {
+                    "header": "Summary",
+                    "primaryKey": "summary"
+                }
+            ],
+            "rows": [
+              {
+                  "id": "TS-2",
+                  "progress": 4,
+                  "status": "In Progress",
+                  "summary": "Discover JBoss Server ",
+                  "total": 15
+              },
+              {
+                  "id": "TS-1",
+                  "progress": 8,
+                  "status": "In Progress",
+                  "summary": "Discover WebLogic Server ",
+                  "total": 35
+              }
+            ],
+            "title": "TestSuites"
+        }
+    ],
+    "app_release_id": "app_test363run_cost-manag_cmp-servic_R1.0",
+    "application": "CMP Services",
+    "description": "dfgbfdbggdb",
+    "environment_list": [
+        {
+            "create_dt": "7-9-2018",
+            "dependent_env": null,
+            "env_name": "dev",
+            "env_type": "DEV",
+            "release_env_id": null,
+            "release_id": null,
+            "release_type": null,
+            "release_type_id": null,
+            "stages": 24,
+            "status": "In Progress",
+            "workflow_id": null
+        },
+        {
+            "create_dt": "9-7-2018",
+            "dependent_env": null,
+            "env_name": "qa",
+            "env_type": "QA",
+            "release_env_id": null,
+            "release_id": null,
+            "release_type": null,
+            "release_type_id": null,
+            "stages": 24,
+            "status": "Configured",
+            "workflow_id": null
+        },
+        {
+            "create_dt": null,
+            "dependent_env": null,
+            "env_name": null,
+            "env_type": "PROD",
+            "release_env_id": null,
+            "release_id": null,
+            "release_type": null,
+            "release_type_id": null,
+            "stages": null,
+            "status": "Not Configured",
+            "workflow_id": null
+        }
+    ],
+    "id": "wf82020ul45tk",
+    "project": "Cost Management",
+    "release_id": "app_test363run_cost-manag_cmp-servic_R1.0",
+    "releasename": "test363run113",
+    "releaseschedule": "2018-7-29",
+    "releasetype": "Application",
+    "releaseversion": "R1.0",
+    "selected_additional_releaseplans": {
+        "Features": [
+            {
+                "id": "MM-2",
+                "progress": 0,
+                "status": "To Do",
+                "summary": "Discover JBoss Server ",
+                "total": 0
+            },
+            {
+                "id": "MM-1",
+                "progress": 0,
+                "status": "To Do",
+                "summary": "Discover WebLogic Server ",
+                "total": 0
+            }
+        ],
+        "TestSuites": [
+            {
+                "id": "TS-2",
+                "progress": 4,
+                "status": "In Progress",
+                "summary": "Discover JBoss Server ",
+                "total": 15
+            },
+            {
+                "id": "TS-1",
+                "progress": 8,
+                "status": "In Progress",
+                "summary": "Discover WebLogic Server ",
+                "total": 35
+            }
+        ]
+    }
+}

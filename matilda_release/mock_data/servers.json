@@ -1,0 +1,87 @@
+[
+    {
+      "env_type": "Development",
+      "ip": "192.168.10.188",
+      "platform": "Linux",
+      "os": "CentOS 7.0",
+      "status": "Installed"
+    },
+    {
+      "env_type": "Development",
+      "ip": "192.168.10.189",
+      "platform": "Linux",
+      "os": "CentOS 7.0",
+      "status": "Installed"
+    },
+    {
+      "env_type": "Development",
+      "ip": "192.168.10.190",
+      "platform": "Linux",
+      "os": "CentOS 7.0",
+      "status": "Installed"
+    },
+    {
+      "env_type": "Testing",
+      "ip": "192.168.10.200",
+      "platform": "Linux",
+      "os": "CentOS 7.0",
+      "status": "Installed"
+    },
+    {
+      "env_type": "Testing",
+      "ip": "192.168.10.201",
+      "platform": "Linux",
+      "os": "CentOS 7.0",
+      "status": "Installed"
+    },
+    {
+      "env_type": "Testing",
+      "ip": "192.168.10.202",
+      "platform": "Linux",
+      "os": "CentOS 7.0",
+      "status": "Installed"
+    },
+    {
+      "env_type": "Production",
+      "ip": "192.168.10.300",
+      "platform": "Linux",
+      "os": "CentOS 7.0",
+      "status": "Installed"
+    },
+    {
+      "env_type": "Production",
+      "ip": "192.168.10.301",
+      "platform": "Linux",
+      "os": "CentOS 7.0",
+      "status": "Installed"
+    },
+    {
+      "env_type": "Production",
+      "ip": "192.168.10.302",
+      "platform": "Linux",
+      "os": "CentOS 7.0",
+      "status": "Installed"
+    },
+    {
+      "env_type": "Development",
+      "ip": "192.168.10.100",
+      "platform": "Windows",
+      "os": "Windows Server 2008",
+      "status": "Installed"
+    },
+    {
+      "env_type": "Testing",
+      "ip": "192.168.10.400",
+      "platform": "Windows",
+      "os": "Windows Server 2008",
+      "status": "Installed"
+    },
+    {
+      "env_type": "Production",
+      "ip": "192.168.10.500",
+      "platform": "Windows",
+      "os": "Windows Server 2008",
+      "status": "Installed"
+    }
+
+]

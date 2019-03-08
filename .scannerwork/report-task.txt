@@ -1,0 +1,6 @@
+projectKey=matilda-release:dd0f17a2f0accca22ec7fe4d7fe97bad641dcdae
+serverUrl=http://192.168.10.18:9000
+serverVersion=6.4.0.25310
+dashboardUrl=http://192.168.10.18:9000/dashboard/index/matilda-release:dd0f17a2f0accca22ec7fe4d7fe97bad641dcdae
+ceTaskId=AWjE-HV1V7RvzEcRsBez
+ceTaskUrl=http://192.168.10.18:9000/api/ce/task?id=AWjE-HV1V7RvzEcRsBez

@@ -1,0 +1,97 @@
+[
+    {
+      "name": "matilda_cost",
+      "server_ip": "192.168.10.188",
+      "status": "Deployed"
+    },
+    {
+      "name": "matilda_cost",
+      "server_ip": "192.168.10.189",
+      "status": "Deployed"
+    },
+    {
+      "name": "matilda_cost",
+      "server_ip": "192.168.10.190",
+      "status": "Deployed"
+    },
+    {
+      "name": "matilda_cost",
+      "server_ip": "192.168.10.200",
+      "status": "Deployed"
+    },
+    {
+      "name": "matilda_cost",
+      "server_ip": "192.168.10.201",
+      "status": "Deployed"
+    },
+    {
+      "name": "matilda_cost",
+      "server_ip": "192.168.10.202",
+      "status": "Deployed"
+    },
+    {
+      "name": "matilda_cost",
+      "server_ip": "192.168.10.300",
+      "status": "Deployed"
+    },
+    {
+      "name": "matilda_cost",
+      "server_ip": "192.168.10.301",
+      "status": "Deployed"
+    },
+    {
+      "name": "matilda_cost",
+      "server_ip": "192.168.10.302",
+      "status": "Deployed"
+    },
+    {
+      "name": "matilda_release",
+      "server_ip": "192.168.10.188",
+      "status": "Deployed"
+    },
+    {
+      "name": "matilda_release",
+      "server_ip": "192.168.10.189",
+      "status": "Deployed"
+    },
+    {
+      "name": "matilda_release",
+      "server_ip": "192.168.10.200",
+      "status": "Deployed"
+    },
+    {
+      "name": "matilda_release",
+      "server_ip": "192.168.10.201",
+      "status": "Deployed"
+    },
+    {
+      "name": "matilda_release",
+      "server_ip": "192.168.10.300",
+      "status": "Deployed"
+    },
+    {
+      "name": "matilda_release",
+      "server_ip": "192.168.10.301",
+      "status": "Deployed"
+    },
+    {
+      "name": "matilda_discovery",
+      "server_ip": "192.168.10.100",
+      "status": "Deployed"
+    },
+    {
+      "name": "matilda_discovery",
+      "server_ip": "192.168.10.400",
+      "status": "Deployed"
+    },
+    {
+      "name": "matilda_discovery",
+      "server_ip": "192.168.10.500",
+      "status": "Deployed"
+    },
+    {
+      "name": "matilda_discovery",
+      "server_ip": "192.168.10.550",
+      "status": "Deployed"
+    }
+]

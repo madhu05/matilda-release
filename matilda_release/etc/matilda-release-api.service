@@ -1,0 +1,19 @@
+[Unit]
+Description=Matilda Release API Service
+After=network.target
+
+[Service]
+WorkingDirectory=/opt/matilda/matilda-release/etc
+User=matilda
+Environment="PYTHONPATH=$PYTHONPATH:/opt/matilda/matilda-release:/opt/matilda/matilda-workflow:/opt/matilda/matilda-plugin:/usr/local/lib/python3.6/dist-packages"
+Environment="AIRFLOW_HOME=/root/airflow/airflow_home/"
+#export AIRFLOW_HOME=/root/airflow/airflow_home/
+Environment="WORKFLOW_HOME=/opt/matilda/matilda-workflow/"
+#export WORKFLOW_HOME=/opt/matilda/matilda-workflow/
+ExecStart=/usr/bin/uwsgi --socket 0.0.0.0:5000 --protocol=http --ini matilda_release_api.ini
+StandardOutput=file:/var/log/matilda/matilda-release.log
+StandardError=file:/var/log/matilda/matilda-release.log
+SuccessExitStatus=143
+
+[Install]
+WantedBy=multi-user.target

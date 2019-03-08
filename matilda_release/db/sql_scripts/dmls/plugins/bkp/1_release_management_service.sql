@@ -1,0 +1,37 @@
+use release_management;
+
+INSERT INTO service (service_id, name, category, comments) VALUES ('sv1', 'AgileCentral', 'Tracking', '1.0;Matilda');
+INSERT INTO service (service_id, name, category, comments) VALUES ('sv10', 'Jenkins', 'Execution', '1.0;Matilda');
+INSERT INTO service (service_id, name, category, comments) VALUES ('sv11', 'JIRA', 'Tracking', '1.0;Matilda');
+INSERT INTO service (service_id, name, category, comments) VALUES ('sv12', 'JMETER', 'Execution', '1.0;Matilda');
+INSERT INTO service (service_id, name, category, comments) VALUES ('sv13', 'Kubernetes', 'Container Platform', '1.0;Matilda');
+INSERT INTO service (service_id, name, category, comments) VALUES ('sv14', 'Linux Script', 'Execution', '1.0;Matilda');
+INSERT INTO service (service_id, name, category, comments) VALUES ('sv15', 'Maven', 'Container Platform', '1.0;Matilda');
+INSERT INTO service (service_id, name, category, comments) VALUES ('sv16', 'MongoDB', 'Database', '1.0;Matilda');
+INSERT INTO service (service_id, name, category, comments) VALUES ('sv17', 'MySQL', 'Database', '1.0;Matilda');
+INSERT INTO service (service_id, name, category, comments) VALUES ('sv18', 'NEXUS', 'Execution', '1.0;Matilda');
+INSERT INTO service (service_id, name, category, comments) VALUES ('sv19', 'Oracle', 'Database', '1.0;Matilda');
+INSERT INTO service (service_id, name, category, comments) VALUES ('sv2', 'Ansible', 'Execution', '1.0;Matilda');
+INSERT INTO service (service_id, name, category, comments) VALUES ('sv20', 'MANUAL', 'Execution', '1.0;Matilda');
+INSERT INTO service (service_id, name, category, comments) VALUES ('sv21', 'PostgreSQL', 'Database', '1.0;Matilda');
+INSERT INTO service (service_id, name, category, comments) VALUES ('sv22', 'REST WebHook', 'Web Hook', '1.0;Matilda');
+INSERT INTO service (service_id, name, category, comments) VALUES ('sv23', 'ServiceNow', 'Tracking', '1.0;Matilda');
+INSERT INTO service (service_id, name, category, comments) VALUES ('sv24', 'SonarQube', 'Code Quality', '1.0;Matilda');
+INSERT INTO service (service_id, name, category, comments) VALUES ('sv25', 'StaticCode Analysis', 'Code Quality', '1.0;Matilda');
+INSERT INTO service (service_id, name, category, comments) VALUES ('sv26', 'SVN', 'Version Control', '1.0;Matilda');
+INSERT INTO service (service_id, name, category, comments) VALUES ('sv27', 'Terraform', 'Cloud Management', '1.0;Matilda');
+INSERT INTO service (service_id, name, category, comments) VALUES ('sv28', 'Tomcat', 'Middleware', '1.0;Matilda');
+INSERT INTO service (service_id, name, category, comments) VALUES ('sv29', 'WebLogic', 'Middleware', '1.0;Matilda');
+INSERT INTO service (service_id, name, category, comments) VALUES ('sv3', 'Bamboo', 'Tracking', '1.0;Matilda');
+INSERT INTO service (service_id, name, category, comments) VALUES ('sv30', 'Roles', 'VZ', '1.0;Matilda');
+INSERT INTO service (service_id, name, category, comments) VALUES ('sv31', 'AMI', 'VZ', '1.0;Matilda');
+INSERT INTO service (service_id, name, category, comments) VALUES ('sv32', 'CFT', 'VZ', '1.0;Matilda');
+INSERT INTO service (service_id, name, category, comments) VALUES ('sv33', 'vz_jenkins', 'VZ', '1.0;Matilda');
+INSERT INTO service (service_id, name, category, comments) VALUES ('sv4', 'Bitbucket', 'Version Control', '1.0;Matilda');
+INSERT INTO service (service_id, name, category, comments) VALUES ('sv5', 'CloudFormation Template', 'Cloud Management', '1.0;Matilda');
+INSERT INTO service (service_id, name, category, comments) VALUES ('sv6', 'CHECKMARX', 'Tracking', '1.0;Matilda');
+INSERT INTO service (service_id, name, category, comments) VALUES ('sv7', 'Docker', 'Container Platform', '1.0;Matilda');
+INSERT INTO service (service_id, name, category, comments) VALUES ('sv8', 'Git', 'Version Control', '1.0;Matilda');
+INSERT INTO service (service_id, name, category, comments) VALUES ('sv9', 'JBoss', 'Middleware', '1.0;Matilda');
+
+commit;

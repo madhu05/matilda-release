@@ -1,0 +1,83 @@
+{
+    "columns": [
+        {
+            "header": "Status",
+            "primaryKey": "status"
+        },
+        {
+            "header": "Project",
+            "primaryKey": "progress"
+        },
+        {
+            "header": "Application",
+            "primaryKey": "total"
+        },
+        {
+            "header": "Version",
+            "primaryKey": "id"
+        },
+        {
+            "header": "Last Deployed",
+            "primaryKey": "summary"
+        }
+    ],
+    "rows": [
+        {
+            "id": "1.0",
+            "progress": "Cost Management Platform",
+            "status": "Active",
+            "summary": "Jun 29 2018",
+            "total": "Cost Analysis"
+        },
+        {
+            "id": "1.0",
+            "progress": "Cost Management Platform",
+            "status": "Active",
+            "summary": "Jun 29 2018",
+            "total": "Cost Forecasting"
+        },
+        {
+            "id": "1.0",
+            "progress": "Cost Management Platform",
+            "status": "Active",
+            "summary": "Jun 29 2018",
+            "total": "Cost DB Analysis"
+        },
+        {
+            "id": "1.1",
+            "progress": "Discovery and Migration",
+            "status": "Active",
+            "summary": "May 25 2018",
+            "total": "Linux Discovery"
+        },
+        {
+            "id": "1.0",
+            "progress": "Discovery and Migration",
+            "status": "Active",
+            "summary": "May 25 2018",
+            "total": "Windows Application Discovery"
+        },
+      {
+            "id": "1.1",
+            "progress": "Discovery and Migration",
+            "status": "Active",
+            "summary": "May 25 2018",
+            "total": "Windows Network Discovery"
+        },
+        {
+            "id": "2.1",
+            "progress": "Container Management",
+            "status": "Active",
+            "summary": "Jul 13 2018",
+            "total": "Kubernetes Setup"
+        },
+        {
+            "id": "2.1",
+            "progress": "Container Management",
+            "status": "Active",
+            "summary": "Jul 13 2018",
+            "total": "Kubernetes Apps Management"
+        }
+    ],
+    "title": "Impacted Applications"
+}

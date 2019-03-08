@@ -1,0 +1,17 @@
+VzPol-CEDV-KMS-Key exists in us-east-1. Updating stack... 
+Waiting for VzPol-CEDV-KMS-Key in us-east-1 to update... 
+VzPol-CEDV-KMS-Key in us-east-1 updated. 
+CEDV KMS Key Alias: alias/VzPol-CEDV-NonProd-key-alias 
+
+CEDV KMS Key ARN: arn:aws:kms:us-east-1:759031157600:key/d64d83ad-84b3-423d-bfa5-ed7080d22610 
+
+VzPol-CEDV-KMS-Key exists in us-west-2. Updating stack... 
+Waiting for VzPol-CEDV-KMS-Key in us-west-2 to update... 
+VzPol-CEDV-KMS-Key in us-west-2 updated. 
+CEDV KMS Key Alias: alias/VzPol-CEDV-NonProd-key-alias 
+
+CEDV KMS Key ARN: arn:aws:kms:us-west-2:759031157600:key/6645b92e-03af-44e9-ac0e-9b8db56ff022 
+
+Hygieia: Failed Publishing Build Complete Data. Response Code: 200. 
+Notifying upstream projects of job completion 
+Finished: SUCCESS

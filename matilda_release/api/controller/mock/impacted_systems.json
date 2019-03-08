@@ -1,0 +1,97 @@
+{
+    "columns": [
+        {
+            "header": "Status",
+            "primaryKey": "status"
+        },
+        {
+            "header": "Operating System",
+            "primaryKey": "progress"
+        },
+        {
+            "header": "Platform",
+            "primaryKey": "total"
+        },
+        {
+            "header": "HostName or IP",
+            "primaryKey": "id"
+        },
+        {
+            "header": "Applications",
+            "primaryKey": "summary"
+        }
+    ],
+    "rows": [
+        {
+            "id": "192.168.10.121",
+            "progress": "Ubuntu 14.04",
+            "status": "Active",
+            "summary": "Migration, Cost Management",
+            "total": "Linux"
+        },
+        {
+            "id": "192.168.10.122",
+            "progress": "Ubuntu 14.04",
+            "status": "Active",
+            "summary": "Migration, Cost Management",
+            "total": "Linux"
+        },
+        {
+            "id": "192.168.10.123",
+            "progress": "Ubuntu 14.04",
+            "status": "Active",
+            "summary": "Migration, Cost Management",
+            "total": "Linux"
+        },
+        {
+            "id": "192.168.10.151",
+            "progress": "Ubuntu 16.04",
+            "status": "Active",
+            "summary": "Discovery, Service Management",
+            "total": "Linux"
+        },
+        {
+            "id": "192.168.10.152",
+            "progress": "Ubuntu 16.04",
+            "status": "Active",
+            "summary": "Discovery, Service Management",
+            "total": "Linux"
+        },
+              {
+            "id": "192.168.20.161",
+            "progress": "Windows 2012 Server R1",
+            "status": "Active",
+            "summary": "Windows Migration",
+            "total": "Windows"
+        },
+        {
+            "id": "192.168.20.162",
+            "progress": "Windows 2012 Server R1",
+            "status": "Active",
+            "summary": "Windows Migration",
+            "total": "Windows"
+        },
+        {
+            "id": "192.168.20.163",
+            "progress": "Windows 2012 Server R1",
+            "status": "Active",
+            "summary": "Windows Migration",
+            "total": "Windows"
+        },
+        {
+            "id": "192.168.10.114",
+            "progress": "Ubuntu 16.04",
+            "status": "Active",
+            "summary": "Discovery, Service Management",
+            "total": "Linux"
+        },
+        {
+            "id": "192.168.10.115",
+            "progress": "Ubuntu 16.04",
+            "status": "Active",
+            "summary": "Discovery, Service Management",
+            "total": "Linux"
+        }
+    ],
+    "title": "Impacted Systems"
+}

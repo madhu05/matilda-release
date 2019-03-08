@@ -1,0 +1,62 @@
+{
+    "columns": [
+        {
+            "header": "Status",
+            "primaryKey": "status"
+        },
+        {
+            "header": "Completed",
+            "primaryKey": "progress"
+        },
+        {
+            "header": "Total Test Cases",
+            "primaryKey": "total"
+        },
+        {
+            "header": "Test Suite Id",
+            "primaryKey": "id"
+        },
+        {
+            "header": "Type",
+            "primaryKey": "summary"
+        }
+    ],
+    "rows": [
+        {
+            "id": "TS-5",
+            "progress": 0,
+            "status": "Not Started",
+            "summary": "Windows and Linux Host Information",
+            "total": 56
+        },
+        {
+            "id": "TS-4",
+            "progress": 0,
+            "status": "Not Started",
+            "summary": "Discover IIS Server ",
+            "total": 30
+        },
+        {
+            "id": "TS-3",
+            "progress": 0,
+            "status": "Not Started",
+            "summary": "Discover Tomcat Server ",
+            "total": 15
+        },
+        {
+            "id": "TS-2",
+            "progress": 0,
+            "status": "Not Started",
+            "summary": "Discover JBoss Server ",
+            "total": 15
+        },
+        {
+            "id": "TS-1",
+            "progress": 0,
+            "status": "Not Started",
+            "summary": "Discover WebLogic Server ",
+            "total": 35
+        }
+    ],
+    "title": "TestSuites"
+}

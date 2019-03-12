@@ -1,4 +1,4 @@
-#/usr/bin/python
+#!/usr/bin/python
 import subprocess
 
 file_names = ['1_release_management_platform.sql',
